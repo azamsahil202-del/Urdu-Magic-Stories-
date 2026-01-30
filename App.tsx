@@ -8,9 +8,9 @@ import {
   CUSTOM_STORY_LABEL, 
   START_MAGIC_BUTTON 
 } from './constants';
-import { generateStory } from './services/geminiService';
-import LoadingScreen from './components/LoadingScreen';
-import StoryPlayer from './components/StoryPlayer';
+import { generateStory } from './geminiService';
+import LoadingScreen from './LoadingScreen';
+import StoryPlayer from './StoryPlayer';
 
 const App: React.FC = () => {
   const [state, setState] = useState<AppState>(AppState.HOME);
