@@ -1,0 +1,7 @@
+{
+  "name": "URDU MAGIC STORIES",
+  "description": "An immersive Urdu storytelling app with magical themes and AI narration.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
